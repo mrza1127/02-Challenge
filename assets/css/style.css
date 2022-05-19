@@ -16,7 +16,7 @@ h1 {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to bottom right, rgb(208, 208, 208), white)
+    background-image: linear-gradient(to bottom right, rgb(214, 214, 214), white)
 
 }
 
@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-    color: rgb(5, 108, 17);
+    color: rgb(55, 100, 61);
     text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(5, 108, 17);
+    color: rgb(55, 100, 61);
 }
 
 
@@ -70,8 +70,8 @@ nav ul li a:hover {
 }
 
 section {
-    padding: 50px;
-    margin-left: 200px;
+    padding: 100px;
+    margin-left: 10px;
 }
 
 section h2 {
@@ -79,7 +79,7 @@ section h2 {
     padding: 10px;
     text-shadow: 1px 1px 5px rgb(154, 167, 156);
     display: inline-block;
-    border: 2px dashed black;
+    border: 1.75px dashed black;
 }
 
 header {
@@ -90,6 +90,58 @@ header {
 .bio img {
     height: 350px;
     width: 350px;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    border: 2px white solid;
 
 
+}
+
+.bio div {
+    padding: 20px;
+}
+
+.bio p {
+    margin: 10px 0 10px 0;
+}
+
+.section-background {
+    background-color: rgba(255, 255, 255, .25);
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    padding-left: 40px;
+    background-color: rgba(255, 255, 255, .25);
+    border-bottom-left-radius: 20px;
+    align-items: center;
+}
+
+.sample {
+    background-color: rgb(107, 119, 80);
+    border: 1.5px solid rgb(95, 95, 88);
+    color: rgb(216, 216, 216);
+    width: 400px;
+    line-height: 150px;
+    text-align: center;
+    margin: 7px;
+}
+
+.sample:first-child {
+    width: 1200px;
+    line-height: 400px;
+}
+
+.sample:hover {
+    opacity: 65%;
+}
+
+.contact {
+    background-color: rgba(255, 255, 255, .25);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
