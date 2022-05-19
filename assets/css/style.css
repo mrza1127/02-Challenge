@@ -10,13 +10,13 @@ h1 {
     font-size: 60px;
     padding: 30px 0 0 30px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
 
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(225, 225, 225);
+    background-image: linear-gradient(to bottom right, rgb(208, 208, 208), white)
 
 }
 
@@ -34,8 +34,8 @@ a:hover {
 
 nav {
     display: flex;
-    justify-content: flex-start;
-    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: flex-end;
+    background-color: rgba(255, 255, 255, 0);
     color:rgb(225, 225, 225);
     background-position: 80%;
     background-size: cover;
@@ -71,7 +71,7 @@ nav ul li a:hover {
 
 section {
     padding: 50px;
-    margin-left: 400px;
+    margin-left: 200px;
 }
 
 section h2 {
@@ -79,5 +79,17 @@ section h2 {
     padding: 10px;
     text-shadow: 1px 1px 5px rgb(154, 167, 156);
     display: inline-block;
-    border: 2px dashed black
+    border: 2px dashed black;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+}
+
+.bio img {
+    height: 350px;
+    width: 350px;
+
+
 }
